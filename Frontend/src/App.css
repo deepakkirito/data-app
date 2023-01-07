@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+    border: 20px solid;
+    height: 100%;
+}
+
+.displayData {
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid; */
+}
+
+.displayData a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.displayData button {
+    /* height: 40px; */
+    margin: 7px;
+}
+
+.scroll {
+    height: 50%;
+    /* overflow-y: scroll; */
+
+}
+
+h1 {
+    margin: 2% 0 2% 0;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+}
+
+input {
+    margin-bottom: 4%;
+}
+
+p {
+    text-align: start;
+    font-weight: bold;
+    font-size: small;
+}
+
+.homeButtons button {
+    margin-right: 3%;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button a:hover {
+    color: black;
+}
+
+.pages {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.pages button {
+    height: 50px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 25px;
+}
+
+.pages p {
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-left: 65px;
+}
+
+.AddData {
+    height: 82vh;
+    margin-top: 5%;
+}
+
+.AddData button {
+    margin-left: 20px;
+}
+
+.AddData a:hover{
+    color: inherit;
+}
+
+.FilterData form {
+    display: flex;
+}
+
+.FilterData h1 {
+    margin-bottom: 3%;
+}
+
+.FilterData input {
+    margin: -0.6% 5% 4% 2%;
+    width: 30%;
+}
+.FilterData button {
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+
+.btn a{
+    color: inherit;
+    text-decoration: none;
+
+}
+.btn a:hover {
+    color: inherit;
+}
+
+.filterDisplay {
+    margin: auto;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+.filterDisplay h2 {
+    margin-bottom: 3%;
+}
+
+.filterDisplay h4{
+    /* margin: 0 10% 0 5%; */
+    letter-spacing: 3px;
+    margin-bottom: 3%;
+}
+
+.noRecords {
+    margin-bottom: 5%;
+}
+
+.btn {
+    margin-bottom: 0;
+}
